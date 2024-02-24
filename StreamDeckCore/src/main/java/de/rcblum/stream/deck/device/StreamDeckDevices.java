@@ -49,13 +49,13 @@ public class StreamDeckDevices {
 	 * devices will be wrapped in a software SD, <code>false</code> the StreamDeck
 	 * will be returned directly.
 	 */
-	private static boolean enableSoftwareStreamDeck = true; 
+	private static boolean enableSoftwareStreamDeck = false;
 	
 	private static final Logger LOGGER = LogManager.getLogger(StreamDeckDevices.class);
 	
 	public static final int VENDOR_ID = 4057;
 	
-	public static final int PRODUCT_ID = 96;
+	public static final int PRODUCT_ID = 109;
 
 	private static List<HidDeviceInfo> deckInfos = null;
 
